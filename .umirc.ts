@@ -7,4 +7,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
+
+  base: 'https://github.com/caichengcefa/github-action-test.git',
+  publicPath: 'https://github.com/caichengcefa/github-action-test.git',
 });
