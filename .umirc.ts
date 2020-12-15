@@ -8,6 +8,6 @@ export default defineConfig({
   mode: 'site',
   // more config: https://d.umijs.org/config
 
-  base: 'https://github.com/caichengcefa/github-action-test.git',
-  publicPath: 'https://github.com/caichengcefa/github-action-test.git',
+  base: '/github-action-test',
+  publicPath: '/github-action-test/',
 });
